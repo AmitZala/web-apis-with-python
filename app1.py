@@ -21,3 +21,4 @@ def index():
 # if none of the above is true, then both names must be present
         response = { "data" : f"Is your name {fname} {lname} ?" }
     return jsonify(response)
+# first solution
